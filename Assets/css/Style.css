@@ -1,0 +1,135 @@
+ body {
+    background-color: #2d2e2d;
+}
+
+.header {
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+    background-color: #187194;
+    color: #2d2e2d;
+    font-size: 30px;
+}
+
+.header div ul {
+    list-style-type: none;
+    margin-left: 700px;
+    font-size: 20px;
+    color: #ffffff
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header div ul li a {
+    color: #2d2e2d;
+}
+
+
+.float-left {
+    height: 250px;
+    width: 175px;
+    padding: 20px;
+}
+.about-me h2  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:#ffffff;
+    padding: 15px;
+    border-right-style: solid;
+    border-width: 3px;
+    margin: 15px;
+    
+}
+
+.about-me {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+float: right;
+display: inline-flex;
+color: #ffffff;
+font-size: 22px
+}
+
+.projects h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+    text-align: center;
+    font-size: 36px;
+    color:#ffffff;
+    margin: 50px 0px 30px 0px;
+}
+
+
+.projects div {
+    display: inline-block;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.project-1 {
+padding: 40px 150px 250px 50px;
+}
+
+
+.project-1 h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+margin-left: 165px;
+color:#ffffff;
+}
+
+.project-1 img {
+    max-height: 250px;
+    max-width: 300px;
+    margin-left: 50px;
+}
+.project-1 img:hover{
+    transform: scale(2.0);
+}
+
+.project-1 a{
+color:#ffffff;
+}
+
+.project-2{
+    padding: 40px 150px 150px 50px;
+}
+
+
+.project-2 h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+    margin-left: 165px;
+    color:#ffffff;
+}
+
+.project-2 img {
+     max-height: 250px;
+    max-width: 300px;
+    margin-left: 50px;
+}
+
+.project-2 img:hover{
+    transform: scale(2.0);
+}
+
+.project-2 a {
+color:#ffffff;
+}
+
+
+
+.contact-me h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+     text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 50px 0px 30px 0px;
+}
+
+.contact-me form {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
+    text-align: center;
+    color:#ffffff;
+}
+    
+
