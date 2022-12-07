@@ -1,1 +1,2 @@
 # tc-portfolio-page
+Here is a webpage that has a portfolio of my work and skills to show to potential employers my abilities. I've added a javascript file for future javascript applications to the webpage.
