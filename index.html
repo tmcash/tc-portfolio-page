@@ -76,17 +76,27 @@
     <div class="footer">
         <div id="contact-me" class="contact-me">
             <h2>Contact Me</h2>
-            <form action="mailto:t.cash15@yahoo.com">
-                <label for="cc">cc:</label><br>
-                <input type="text" id="cc" name="cc" value="example.@email.com"><br>
-                <label for="bcc">bcc:</label><br>
-                <input type="text" id="bcc" name="bcc" value="example.@email.com"><br>
-                <label for="subject">subject:</label><br>
-                <input type="text" id="subject" name="subject" value="Talk to me"><br>
-                <label for="body">body:</label><br>
-                <input type="text" id="body" name="body" value="I talk back"><br><br>
-                <input type="submit" value="Submit">
-            </form>
+            <form action="mailto:t.cash15@yahoo.com" method="get" enctype="text/plain">
+                <div>
+                  <label for="name">Name:
+                    <input type="text" name="name" id="name" />
+                  </label>
+                </div>
+                <div>
+                  <label for="email">Email:
+                    <input type="text" name="email" id="email" />
+                  </label>
+                </div>
+                <div>
+                  <label>Comments:</label>
+                  <br />
+                  <textarea name="comments" rows="12" cols="35">Send your comments to me.</textarea>
+                </div>
+                <div>
+                  <input type="submit" name="submit" value="Send" />
+                  <input type="reset" name="reset" value="Clear Form" />
+                </div>
+              </form>
 
 
         </div>
