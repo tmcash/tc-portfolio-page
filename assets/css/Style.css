@@ -74,7 +74,7 @@ padding: 40px 150px 250px 50px;
 
 .project-1 h3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
-margin-left: 50px;
+margin-left: 100px;
 color:#ffffff;
 }
 
@@ -84,7 +84,7 @@ color:#ffffff;
     margin-left: 50px;
 }
 .project-1 img:hover{
-    transform: scale(2.0);
+    transform: scale(1.5);
 }
 
 .project-1 a{
@@ -98,18 +98,18 @@ color:#ffffff;
 
 .project-2 h3 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Times New Roman';
-    margin-left: 85px;
+    margin-left: 120px;
     color:#ffffff;
 }
 
 .project-2 img {
-     max-height: 250px;
+    max-height: 250px;
     max-width: 300px;
     margin-left: 50px;
 }
 
 .project-2 img:hover{
-    transform: scale(2.0);
+    transform: scale(1.5);
 }
 
 .project-2 a {
